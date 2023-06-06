@@ -1,0 +1,7 @@
+<form method="POST">
+{% csrf_token %} {% comment %} siempre agregar token csrf {% endcomment %}
+title{{form.title}}
+<br>
+description{{form.description}}
+<button type="submit"> submit </button>
+</form>
